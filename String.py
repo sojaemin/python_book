@@ -6,3 +6,7 @@ print("""
 	gogo
 	"""
 	)
+
+print("=="*50)
+print("test")
+print("=="*50)
