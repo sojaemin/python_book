@@ -31,3 +31,21 @@ print("sample code with two value A: %d, B: %s" %(number, str_val))
 
 #print %
 print("print fifty percent : %d%%" %50)
+
+low = "test"
+print(low.upper())
+print(low.count('t'))
+
+upper = "TEST"
+print(upper.lower())
+
+strWithBlank = "test    "
+print(strWithBlank)
+print(strWithBlank.rstrip()) #trim to left : lstrip(), trim to right : rstrip()
+
+print(strWithBlank.replace("t","TTT"))
+
+splistTest = "This is split test code!!!"
+print(splistTest.split()) #split(":")
+
+print(splistTest.swapcase()) #lower to upper, upper to lower
